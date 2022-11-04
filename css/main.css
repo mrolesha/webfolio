@@ -1228,7 +1228,7 @@
 }
 
 .subfooter__column {
-  background-image: url(../../image/10.png);
+  background-image: url(../image/10.png);
   width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
