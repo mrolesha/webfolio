@@ -1,604 +1,949 @@
-<!DOCTYPE>
-<html>
-    <head>
-        <title>PortfolioWeb</title>
-        <link rel="stylesheet" href="css/css/main.css" type="text/css">
-    </head>
-    <body>
+@import 'null.scss';
+.container{
+    max-width: 1248px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 820px;
+    background:#010032 ;
+    color: #ffffffff;
+    width: 100%;
     
-<!--      Оболочка-->
-      
-       <div class="wrapper">
-<!--       Оболочка-->
-       
-<!--       header-->
-        <div class="header">
-<!--          menu-->
-           <div class="menu">
-              <div class='container'>
-                   <div class="menu__row">
-                       <div class="menu__icon">
-                        <div class="icon__row">
-                         <div class="icon">
-                             <img src="image/icon/Vector.png" alt="">
-                         </div>
-                          <div class="icon__text">web.folio</div>
-                          </div>
-                       </div>
-                       <div class="menu__link">
-                           <a href="#">Work</a>
-                           <a href="#">About</a>
-                           <a href="#">Shop</a>
-                           <a href="#">Blog</a>
-                           <a href="#">Contact</a>
-                       </div>
-                       <div class="menu__burger">
-                           <div class="burger__title">Cart (0)</div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-<!--           menu-->
-<!--          last piece-->
-           <div class="header__body">
-              
-               <div class="header__row">
-                   <div class="left">
-                      <div class="left__row">
-                       <div class="left__title">I design digital products that make an impact.</div>
-                       <div class="left__subtitle">Hi! I’m Alex, a product designer based in Oakland. I create user-friendly interfaces for fast-growing startups.</div>
-                       <div class="button__row">
-                           <div class="button">Hire me!</div>
-                           <div class="button_img"><img src="image/left.png" alt=""></div>
-                       </div>
-                       <div class="header__footer">
-                       <div class="header__footer__row">
-                           <div class="header__footer__icon"><img src="image/win.png" alt=""></div>
-                           <div class="header__footer__body">
-                               <div class="header__footer__title">Independent Of The Year</div>
-                               <div class="header__footer__subtitle">Annual Awards 2020 • awwwards.com</div>
-                           </div>
-                           
-                       </div>
-                   </div>
-                       
-                    </div>
-                   </div>
-                   <div class="right">
-                       <img src="image/right.png" alt="">
-                   </div>
-                   
-               
-               </div>
-           </div>
-<!--           last piece-->
-        </div>
-<!--        header-->
-       
-<!--       content-->
-        <div class="content">
-            <div class="about__rate">
-                <div class="container">
-                    <div class="about__rate__row">
-                       <div class="column">
-                        <div class="about__rate__about">
-                           
-                            <div class="about__title__row">
-                                <div class="about__title__picture"><img src='image/3.png' alt=""></div>
-                                <div class="about__title__text">about</div>
-                            </div>
-                            
-                            <div class="about__undertext">
-                            <div class="about__undertext__row">
-                                <div class="about__undertext__picture"><img src="image/star.png" alt=""></div>
-                                <div class="about__undertext__text">Working with Alex was interesting. He went above and beyond what I've asking for and provided such an amazing design for my mobile application.</div>
-                            </div>
-                            <div class="about__corypight">
-                                <div class="corypight__row">
-                                    <div class="corypight__picture"><img src="image/picture.png" alt=""></div>
-                                    <div class="corypight__text">
-                                        <div class="corypight__text__row">
-                                            <div class="corypight__title">Steve McQuilen</div>
-                                            <div class="corypight__undertext">CEO @ Vencortex</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            </div>
-                            
-                        </div>
-                        </div>
-                        <div class="column">
-                        <div class="about__rate__right">
-                            <div class="about__rate__right__title">Trusted by the fastest growing digital startups</div>
-                            <div class="about__rate__rate">
-                                <div class="rate__row">
-                                    <div class="block">
-                                        <div class="block__title">7+</div>
-                                        <div class="block__text">Years of experience</div>
-                                    </div>
-                                    <div class="block">
-                                        <div class="block__title">50+</div>
-                                        <div class="block__text">Projects completed</div>
-                                    </div>
-                                    <div class="block">
-                                        <div class="block__title">30+</div>
-                                        <div class="block__text">Happy clients</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="about__rate__logo">
-                                <div class="block2">
-                                    <div class="block2__row">
-                                        <div class="block2__block">
-                                            <img src="image/about__rate/1.png" alt="">
-                                        </div>
-                                        <div class="block2__block">
-                                            <img src="image/about__rate/2.png" alt="">
-                                        </div>
-                                        <div class="block2__block">
-                                            <img src="image/about__rate/3.png" alt="">
-                                        </div>
-                                        <div class="block2__block">
-                                            <img src="image/about__rate/4.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="about__work">
-                <div class="container">
-                   <div class="about__work__subtitle">
-                       <div class="about__work__subtitle__row">
-                           <div class="about__work__subtitle__picture"><img src="image/3.png" alt=""></div>
-                           <div class="about__work__subtitle__text">work</div>
-                       </div>
-                   </div>
-                    <div class="about__work__title">Bringing stellar results for every client.</div>
-                    <div class="about__work__row">
-                        <div class="about__block__link">
-                            <div class="about__block__link__row">
-                                <div class="about__block__picture"><img src="image/work/1.png" alt=""></div>
-                                <div class="about__block__button">
-                                <div class="about__block__button__row">
-                                    <div class="about__block__left">Maize Website Design</div>
-                                    <div class="about__block__right"><img src="image/work/vector.png" alt=""></div>
-                                    </div>
-                                </div>
-                                <div class="about__block__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                            </div>
-                        </div>
-                        <div class="about__block__link">
-                            <div class="about__block__link__row">
-                                <div class="about__block__picture"><img src="image/work/2.png" alt=""></div>
-                                <div class="about__block__button">
-                                <div class="about__block__button__row">
-                                    <div class="about__block__left">Datadash Product Design</div>
-                                    <div class="about__block__right"><img src="image/work/vector.png" alt=""></div>
-                                    </div>
-                                </div>
-                                <div class="about__block__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about__block__linc__row">
-                    <div class="about__block__linc">
-                        
-                    </div>
-                    <div class="about__block__linc">
-                            <div class="about__block__link__row">
-                                <div class="about__block__picture"><img src="image/work/3.png" alt=""></div>
-                                <div class="about__block__button">
-                                <div class="about__block__button__row">
-                                    <div class="about__block__left">Joggr Website Design</div>
-                                    <div class="about__block__right"><img src="image/work/vector.png" alt=""></div>
-                                    </div>
-                                </div>
-                                <div class="about__block__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="about__work__row">
-                        <div class="about__block__link">
-                            <div class="about__block__link__row">
-                                <div class="about__block__picture"><img src="image/work/4.png" alt=""></div>
-                                <div class="about__block__button">
-                                <div class="about__block__button__row">
-                                    <div class="about__block__left">Otsuka Pharmaceutical</div>
-                                    <div class="about__block__right"><img src="image/work/vector.png" alt=""></div>
-                                    </div>
-                                </div>
-                                <div class="about__block__text">Partnering with healthcare researchers to improve patient communications and experience.</div>
-                            </div>
-                        </div>
-                        <div class="about__block__link">
-                            <div class="about__block__link__row">
-                                <div class="about__block__picture"><img src="image/work/5.png" alt=""></div>
-                                <div class="about__block__button">
-                                <div class="about__block__button__row">
-                                    <div class="about__block__left">Origin UI/UX Design</div>
-                                    <div class="about__block__right"><img src="image/work/vector.png" alt=""></div>
-                                    </div>
-                                </div>
-                                <div class="about__block__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                                <div class="about__block__underbutton">
-                                    <div class="about__block__underbutton__text">
-                                        view all projects
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="about__service">
-                <div class="container">
-                  
-                   <div class="about__service__title__row">
-                                <div class="about__service__title__picture"><img src="image/service/6.png" alt=""></div>
-                                <div class="about__service__title__text">services</div>
-                            </div>
-                            
-                    <div class="about__service__row">
-                        <div class="about__service__title">
-                        </div>
-                        <div class="about__service__subtitle">Pushing the boundaries of your potential</div>
-                        <div class="about__service__columns">
-                            <div class="about__service__column">
-                               <div class="about__service__column__row">
-                                <div class="service">
-                                    <div class="service__row">
-                                        <div class="service__logo"><img src="image/service/1.png" alt=""></div>
-                                        <div class="service__title">Branding</div>
-                                        <div class="service__text">Refresh your logo, revamp your website, and even your letterhead— develop a cohesive aesthetic for your brand.</div>
-                                    </div>
-                                </div>
-                                <div class="service">
-                                    <div class="service__row">
-                                        <div class="service__logo"><img src="image/service/2.png" alt=""></div>
-                                        <div class="service__title">Packaging</div>
-                                        <div class="service__text">Rethink labels, boxes, signage, and everything that'll help your product make a great first impression.</div>
-                                    </div>
-                                </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about__service__column__row">
-                                <div class="service">
-                                    <div class="service__row">
-                                        <div class="service__logo"><img src="image/service/3.png" alt=""></div>
-                                        <div class="service__title">Memorabilia</div>
-                                        <div class="service__text">Choose from easy, affordable options for merch like custom tees and sets of pins.</div>
-                                    </div>
-                                </div>
-                                <div class="service">
-                                    <div class="service__row">
-                                        <div class="service__logo"><img src="image/service/4.png" alt=""></div>
-                                        <div class="service__title">Visual Aids</div>
-                                        <div class="service__text">Make your point more convincingly with branded flyers, slides, catalogues, infographics.</div>
-                                    </div>
-                                </div>
-                                <div class="about__service__button">
-                            <div class="about__service__button__row">
-                                <div class="about__service__button__text">Start a project</div>
-                                
-                            </div>
-                            <div class="about__service__button__picture"><img src="image/service/5.png" alt=""></div>
-                        </div>
-                                </div>
-                </div>
-                </div>
-            <div class="about__testimonials">
-                    <div class="container">
-                        <div class="testimonial">
-                          <div class="testimonial__row">
-                           <div class="testimonial__title__row">
-                              <div class="testimonial__img"><img src="image/3.png" alt=""></div>
-                               <div class="testimonial__title">Testimonials</div>
-                               <div class="testimonial__img"><img src="image/3.png" alt=""></div>
-                           </div>
-                            
-                            <div class="testimonial__subtitle">
-                            <div class="testimonial__subtitle__text">Hear it directly from my clients.</div>
-                            </div>
-                            
-                            <div class="testimonial__row">
-                                <div class="testimonial__columns">
-                                    <div class="testimonial__column">
-                                        <div class="column__picture"><img src="image/rate.png" alt=""></div>
-                                        <div class="column__title">Highly professional</div>
-                                        <div class="column__text">Alex was in control throughout the project. They delivered on the promised deadlines and we love the work they did!</div>
-                                        <div class="column__row">
-                                            <div class="picture__p"><img src="image/picture.png" alt=""></div>
-                                            <div class="authorship">
-                                                <div class="authorship__text">Steve McQuillen</div>
-                                                <div class="authorship__subtext">Marketing Manager, Vowels</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial__column">
-                                        <div class="column__picture"><img src="image/rate.png" alt=""></div>
-                                        <div class="column__title">Creative and fearless</div>
-                                        <div class="column__text">Working with Alex was interesting. He went above and beyond what I've asking for and provided such an amazing design for my mobile application.</div>
-                                        <div class="column__row">
-                                            <div class="picture__p"><img src="image/4.png" alt=""></div>
-                                            <div class="authorship">
-                                                <div class="authorship__text">Rebecca Smith</div>
-                                                <div class="authorship__subtext">CEO, Consonants</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial__arrow">
-                                <div class="arrow"><img src="image/courser/1.png" alt=""></div>
-                                <div class="arrow"><img src="image/courser/2.png" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            <div class="about__process">
-                <div class="container">
-                    <div class="process__header">
-                       <div class="process__header__title__row">
-                           <div class="process__header__title__img"><img src="image/3.png" alt=""></div>
-                           <div class="process__header__title__text">process</div>
-                       </div>
-                        <div class="process__header__row">
-                            <div class="process__header__subtitle">Getting started is easy.</div>
-                            <div class="process__header__subtitle__text">I've developed a structure that saves time (and money) while making the most of our interactions.</div>
-                        </div>
-                        <div class="process__body">
-                           <div class="process__body__row">
-                               <div class="process__body__column">
-                                   <div class="column__number__row">
-                                       <div class="column__number__title">[1]</div>
-                                       <div class="column__number__img"><img src="image/process/1.png" alt=""></div>
-                                   </div>
-                                   <div class="column__title">Listen</div>
-                                   <div class="column__text">I get to know you and your company, your goals and expectations.</div>
-                               </div>
-                               <div class="process__body__column">
-                                   <div class="column__number__row">
-                                       <div class="column__number__title">[2]</div>
-                                       <div class="column__number__img"><img src="image/process/1.png" alt=""></div>
-                                   </div>
-                                   <div class="column__title">Ideate</div>
-                                   <div class="column__text">I create a couple of pitches based on the project brief and goals.</div>
-                               </div>
-                               <div class="process__body__column hello">
-                                   <div class="column__number__row">
-                                       <div class="column__number__title">[3]</div>
-                                       
-                                   </div>
-                                   <div class="column__title">Execute</div>
-                                   <div class="column__text oness">I work on the approved plan while keeping you in the loop until we have a finished project.</div>
-                               </div>
-                           </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about__shop">
-                <div class="container">
-                    <div class="shop__header">
-                        <div class="shop__header__row">
-                            <div class="shop__header__line"><img src="image/3.png" alt=""></div>
-                            <div class="shop__header__text">shop</div>
-                            <div class="shop__header__line"><img src="image/3.png" alt=""></div>
-                        </div>
-                        <div class="shop__header__title">
-                           <div class="shop__header__title__text">In a rush?</div>
-                            <div class="shop__header__title__text">Shop ready designs here.</div>
-                        </div>
-                        <div class="shop__products">
-                            <div class="shop__columns">
-                                <div class="shop__column">
-                                    <div class="shop__column__picture"><img src="image/shop/1.png" alt=""></div>
-                                    <div class="shop__column__title">Ergonomic Frozen Pants</div>
-                                    <div class="shop__column__text">In et consequ</div>
-                                </div>
-                                <div class="shop__column">
-                                    <div class="shop__column__picture"><img src="image/shop/2.png" alt=""></div>
-                                    <div class="shop__column__title">Handmade Fresh Bike</div>
-                                    <div class="shop__column__text">Qui in facere</div>
-                                </div>
-                                <div class="shop__column">
-                                    <div class="shop__column__picture"><img src="image/shop/3.png" alt=""></div>
-                                    <div class="shop__column__title">Small Soft Pizza</div>
-                                    <div class="shop__column__text">Aspernatur expli</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="shop__button">
-                            <div class="buton__row">
-                                <div class="button__text">View all products</div>
-                                <div class="button__arrow"><img src="image/shop/4.png" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about__blog">
-                <div class="container">
-                    <div class="about__blog__header__row">
-                        <div class="about__blog__picture"><img src="image/3.png" alt=""></div>
-                        <div class="about__blog__text">blog</div>
-                    </div>
-                    <div class="about__blog__subtitle__row">
-                            <div class="about__blog__title">Words On Design, Tech & Other Things I Love</div>
-                            <div class="about__blog__button__row">
-                                <div class="about__blog__button__text">Explore all posts</div>
-                                <div class="about__blog__button__arrow"><img src="image/blog/5.png" alt=""></div>
-                                </div>
-                        </div>
-                        
-                    <div class="about__blog__row">
-                       
-                        <div class="about__blog__column">
-                            <div class="about__blog__column__row">
-                                <div class="about__blog__column__picture"><img src="image/blog/1.png" alt=""></div>
-                                <div class="about__body__column__body">
-                                    <div class="about__body__column__title">
-                                        <div class="about__body__column__title__left">Design • 6 Oct, 2021</div>
-                                        <div class="about__body__column__title__right">
-                                            <div class="about__body__column__button">
-                                                <div class="about__body__column__button__text">View post</div>
-                                                <div class="about__body__column__arrow"><img src="image/shop/4.png" alt=""></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="about__body__column__subtitle">On our obsession with circles</div>
-                                    <div class="about__body__column__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="about__blog__column">
-                            <div class="about__blog__column__row">
-                                <div class="about__blog__column__picture"><img src="image/blog/2.png" alt=""></div>
-                                <div class="about__body__column__body">
-                                    <div class="about__body__column__title">
-                                        <div class="about__body__column__title__left">Design • 6 Oct, 2021</div>
-                                        <div class="about__body__column__title__right">
-                                            <div class="about__body__column__button">
-                                                <div class="about__body__column__button__text">View post</div>
-                                                <div class="about__body__column__arrow"><img src="image/shop/4.png" alt=""></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="about__body__column__subtitle">From bullet points to Yayoi Kusama— On our obsession with circles</div>
-                                    <div class="about__body__column__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="about__blog__column">
-                            <div class="about__blog__column__row">
-                                <div class="about__blog__column__picture"><img src="image/blog/3.png" alt=""></div>
-                                <div class="about__body__column__body">
-                                    <div class="about__body__column__title">
-                                        <div class="about__body__column__title__left">Technology • 6 Oct, 2021</div>
-                                        <div class="about__body__column__title__right">
-                                            <div class="about__body__column__button">
-                                                <div class="about__body__column__button__text">View post</div>
-                                                <div class="about__body__column__arrow"><img src="image/shop/4.png" alt=""></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="about__body__column__subtitle">It's a jungle out there for gig workers</div>
-                                    <div class="about__body__column__text">Vivamus mattis eu odio non aliquam. Vestibulum tristique congue laoreet. Nulla facilisi.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about__subsfooter">
-                    <div class="subsfooter__row">
-                        <div class="subfooter__column">
-                            <div class="subfooter__title">Work</div>
-                            <div class="subfooter__text">Favorite projects, award-winning campaigns and more.</div>
-                            <div class="subfooter__button">
-                                <div class="subfooter__button__text">View all</div>
-                                <div class="subfooter__button__img"><img src="image/blog/5.png" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="subfooter__column2">
-                            <div class="subfooter__title">About</div>
-                            <div class="subfooter__text">My journey, career highlights and everything else you need to know.</div>
-                            <div class="subfooter__button">
-                                <div class="subfooter__button__text">Get to know me</div>
-                                <div class="subfooter__button__img"><img src="image/blog/5.png" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-<!--        content-->
-       
-<!--       footer-->
-        <div class="footer">
-           <div class="footer__body">
-               <div class="container">
-                   <div class="footer__row">
-                       <div class="footer__subtitle">
-                       <div class="footer__subtitle__body">
-                           <div class="subtitle__img">
-                               <img src="image/2.png" alt="">
-                           </div>
-                           <div class="subtitle">
-                               contact
-                           </div>
-                       </div>
-                       
-                       </div>
-                       <div class="footer__title">
-                       Have something in mind? Let's connect. Have something in mind? Let'connect.
-                       </div>
-                       <div class="footer__body">
-                           <div class="footer__subfooter">
-                               <div class="subfooter__row">
-                                   <div class="post">alexsmith@example.com</div>
-                                   <div class="footer__block">
-                                       <a href="#">Work</a>
-                                       <a href="#">About</a>
-                                       <a href="#">Shop</a>
-                                       <a href="#">Blog</a>
-                                       <a href="#">Contact</a>
-                                   </div>
-                                   <div class="footer__block">
-                                    <a href="#">Twitter</a>
-                                    <a href="#">LinkedIn</a>
-                                    <a href="#">Behance</a>
-                                    <a href="#">GitHub</a>
-                                    <a href="#">Dribbble</a>
-                                   </div>
-                                   
-                                   <div class="footer_form">
-                                       <form action="#" method="post" enctype="multipart/form-data">
-                                         <div class="form__title">
-                                          <p>Subscribe to my weekly newsletter</p>
-                                          </div>
-                                          <div class="form__row">
-                                           <p><input class="text" type="text"></p>
-                                           <p><button class="batton" type="submit">Send</button></p>
-                                           </div>
-                                       </form>
-                                    </div>
-                               </div>
-                           </div>
-                       </div>
-<!--                       Подвал-->
-                       <div class="footer__basement">
-                           <div class="basement__row">
-                               <div class="basement__text">© Template by Sumit Hegde - Powered by Webflow</div>
-                               <div class="basement__link">
-                                   <a href="#">Style Guide /</a>
-                                   <a href="#">Licenses /</a>
-                                   <a href="#">Instructions /</a>
-                                   <a href="#">Change Log /</a>
-                               </div>
-                           </div>
-                       </div>
-<!--                       Подвал-->
-                   </div>
-               </div>
-           </div>
-            
-        </div>
-<!--        footer-->
-        </div>
-    </body>
-</html>
+}
+.icon__row{
+    display: flex;
+    align-items: center;
+}
+.icon__text{
+    margin: 0 0 0 10px;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+}
+
+.menu__row{
+    position: relative;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__row a{
+    color: #ffffffff;
+    margin: 0 40px 0 0;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    margin: 100px 0 0 130px;
+}
+.right{
+    margin: -10px 0 0 0;
+    border-radius: 0px;
+    max-height: 720px;
+    }
+
+.left__title{
+   font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 76px;
+max-width: 600px;
+    margin: 0 0 30px 0;
+}
+.left__subtitle{
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 510px;
+}
+.button__row{
+    width: 110px;
+    height: 60px;
+    background: #ffffffff;
+    border-radius: 30px;
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px 30px 100px 0;
+}
+.button{
+    font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+    color: #000000; 
+}
+.header__footer__row{
+    display: flex;
+    align-items: center;
+    font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+}
+.header__footer__body{
+    margin: 0 0 0 20px;
+    font-family:sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+}
+.header__footer__subtitle{
+    color: rgba(255, 255, 255, 0.6);
+}
+.content{
+    flex: 1 1 auto;
+}
+.footer{
+    background:#010032;
+    padding: 100px 0 0 0;
+}
+.footer__body{
+    margin: 30px 0 50px 0;
+    color: #ffffffff;
+}
+.footer a{
+    color:#ffffff;
+}
+.footer__row{
+    display: flex;
+    flex-direction: column;
+}
+.footer__subtitle__body{
+    display: flex;
+    align-items: center;
+}
+.subtitle__img{
+    margin: 0 20px 0 0;
+}
+.subtitle{
+    text-transform: uppercase;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.footer__title{
+    font-family: monospace;
+font-style: normal;
+    margin: 30px 0 100px 0;
+font-weight: 400;
+font-size: 30px;
+line-height: 66px;
+}
+.subfooter__row{
+    display: flex;
+    justify-content: space-between;
+}
+.post::after{
+    content: '';
+    border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+    width: 170px;
+    padding: 0 0 5px;
+    display: block;
+    height: 1pxp;
+}
+.footer__block{
+    display: flex;
+    flex-direction: column;
+}
+.footer__block a:first-child{
+    margin: 0 0 7.5px 0;
+}
+.footer__block a{
+    margin: 7.5px 0;
+}
+.form__title{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+    margin:  0 0 0 -50px;
+font-size: 18px;
+    margin: 0 -60px 15px 0;
+line-height: 28px;
+}
+.form__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 0;
+    
+    
+}
+.footer_form{
+    
+}
+.text{
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: #010032;
+    width: 290px;
+    height: 35px;
+    text-align: center;
+    color: #ffffffff;
+    margin: 0 30px 0 0;
+}
+.batton {
+    background: #4543E8;
+border-radius: 24px;
+    width: 120px;
+    height: 35px;
+    font-family: monospace;
+    color: #ffffffff;
+}
+.footer__subfooter::after{
+    content: '';
+    display: block;
+    border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+    height: 1px;
+    width:auto;
+    padding: 0 0 70px 0;
+}
+.basement__row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.basement__link a{
+    margin: 0 10px;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.about__rate__row{
+    display: flex;
+}
+.content{
+    margin: 150px 0 0 0;
+}
+
+.about__rate__about{
+    display: flex;
+    flex-direction: column;
+}
+.about__title__row{
+    display: flex;
+    align-items: center;
+}
+.about__title__text{
+    font-family: sans-serif;
+font-style: normal;
+    text-transform: uppercase;
+font-weight: 400;
+    color: #4543E8;
+    letter-spacing: 2px;
+font-size: 16px;
+    margin: 0 0 0 20px;
+line-height: 24px;
+}
+.about__undertext{
+    margin: 120px 0 0 0;
+}
+.about__undertext__row{
+    margin: 0 0 30px 0;
+    max-width: 350px;
+    
+}
+.about__undertext__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+}
+.corypight__row{
+    display: flex;
+    align-items: center;
+}
+.corypight__text__row{
+    margin: 0 0 0 24px;
+}
+.corypight__title{
+    margin: 0 0 10px 0;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+.corypight__undertext{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+}
+.about__rate__right__title{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+    width: 750px;
+line-height: 54px;
+}
+.about__rate__right{
+    margin: 0 0 0 100px;
+}
+.rate__row{
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 0 100px 0;
+}
+.block2__row{
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    margin: 0 60px 0 0;
+}
+.block__title{
+    font-family: sans-serif;
+    color: #4543E8;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 66px;
+}
+.about__work{
+    margin: 200px 0 0 0;
+}
+.about__work__subtitle__row{
+    display: flex;
+    align-items: center;
+}
+.about__work__subtitle__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+    color: #4543E8;
+    margin: 0 0 0 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.about__work__title{
+    font-family: sans-serif;
+    width: 600px;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 66px;
+color: #000000;
+    margin: 30px 0 80px 0;
+}
+.about__work__row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 110px 0;
+}
+.about__block__button__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__block__left{
+    font-family: sans-serif;
+    margin: 30px 0 25px 0;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+.about__block__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+    width: 480px;
+font-size: 13px;
+line-height: 28px;
+color: #000000;
+}
+.about__block__linc__row{
+    display: flex;
+}
+.about__block__linc{
+    flex: 0 1 50%;
+    margin: 0 150px 110px 0;
+}
+.about__block__underbutton{
+    display: flex;
+    margin: 60px 0 0 0;
+    background: #4543E8;
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffffffff;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.about__block__underbutton__text{
+    width: 80px;
+    text-align: center;
+}
+.about__service{
+    background: #010032;
+    color: #ffffffff;
+    padding: 150px 0;
+}
+.about__service__title__row{
+    display: flex;
+    align-items: center;
+}
+.about__service__title__text{
+    text-transform: uppercase;
+    margin: 0 0 0 20px;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2px;
+}
+.about__service__subtitle{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+    max-width: 350px;
+    margin: 20px 0 0 0;
+font-size: 48px;
+line-height: 54px;
+}
+.about__service__column__row{
+    display: flex;
+}
+.about__service__columns{
+   margin: 0 0 0 20px;
+}
+.about__service__row{
+    display: flex;
+    margin: 0 0 40px 0;
+}
+.service{
+    width: 255px;
+    margin:  0 0 0 170px;
+}
+.service__title{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+    margin: 20px 0;
+}
+.service__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+}
+.about__service__button__text{
+    margin: 115px 0 0 215px;
+    width: 150px;
+    padding: 20px 60px 20px 40px;
+    background: #ffffff;
+    border-radius: 40px;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+    color: #000000;
+}
+.about__service__button__picture{
+    margin: 50px 0 0 330px;
+}
+.about__testimonials{
+    background: #D8D8EB;
+    padding: 120px 0;
+}
+.testimonial__title__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.testimonial__row{
+    display: flex;
+    flex-direction: column;
+}
+.testimonial__title{
+        font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4543E8;
+margin: 0 11px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.testimonial__subtitle{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 60px 0;
+}
+.testimonial__subtitle__text{
+    max-width: 600px;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 66px;
+text-align: center;
+}
+.testimonial__columns{
+    display: flex;
+}
+.testimonial__column{
+    flex: 0 1 50%;
+    margin: 0 40px;
+    background: #ffffffff;
+    border-radius: 20px 20px 0 20px;
+    padding: 41px;
+}
+.picture__p{
+    width: 64px;
+    height: 64px;
+}
+.column__row{
+    margin: 23px 0 0 0 ;
+    display: flex;
+    align-items: center;
+}
+.authorship{
+    margin: 0 25px;
+}
+.column__title{
+    margin: 30px 0 15px 0;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+}
+.column__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+}
+.testimonial__arrow{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+.about__process{
+    background: #E5E5E5;
+    padding: 150px 0 200px 0;
+}
+.process__header__title__row{
+    display: flex;
+    align-items: center;
+    color: #4543E8;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.process__header__title__text{
+    margin: 0 20px;
+}
+.process__header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 170px 0;
+    
+}
+
+.process__header__subtitle{
+    font-family: 'Space Grotesk';
+    max-width: 430px;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 64px;
+letter-spacing: 1.2px;
+color: #000000;
+}
+.process__header__subtitle__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+    max-width: 370px;
+color: #000000;
+}
+.process__body__row{
+    display: flex;
+}
+.process__body__column{
+    flex: 0 1 33%;
+    margin: 0 110px 0 0;
+}
+.column__number__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column__number__title{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+color: #4543E8;
+}
+.column__title{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+
+.column__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+    max-width:330px;
+line-height: 28px;
+color: #000000;
+}
+
+.hello{
+    font-size: 18px;
+    margin: 0;
+}
+.oness{
+    font-size: 18px;
+    max-width: 400px;
+}
+.about__shop{
+    background: #E5E5E5;
+    padding: 0 0 150px 0;
+}
+.shop__header__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #4543E8;
+    margin: 0 0 30px 0;
+
+}
+.shop__header__text{
+    margin: 0 20px 0 20px;
+}
+.shop__header__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+text-align: center;
+color: #000000;
+}
+.shop__columns{
+    display: flex;
+}
+.shop__column{
+    flex: 0 1 33.3333%;
+    margin: 80px 40px 80px 0;
+    display: flex;
+    flex-direction: column;
+}
+.shop__column:last-child{
+    margin: 80px 0 80px 0;
+}
+.shop__column__title{
+    margin: 35px 0 0 0;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #010032;
+}
+.shop__column__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+    margin: 6px 0 0 0;
+line-height: 28px;
+color: #010032;
+}
+.buton__row{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+    color: #4543E8;
+}
+.button__text{
+    margin: 0 25px 0 0;
+}
+.shop__button::after{
+    content: '';
+    display: block;
+    border-bottom: 2px rgba(69, 67, 232, 0.2) solid;
+    min-height: 1px;
+    max-width:188px;
+    margin: 12px 450px 0 528px;
+}
+.about__blog{
+    background: #E5E5E5;
+    padding: 0 0 120px 0;
+}
+.about__blog__header__row{
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.about__blog__text{
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2px;
+text-transform: uppercase;
+    margin: 0 20px;
+color: #4543E8;
+}
+.about__blog__subtitle__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 90px 0;
+}
+.about__blog__title{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+    max-width: 600px;
+line-height: 64px;
+letter-spacing: 1.2px;
+color: #000000;
+}
+.about__blog__button__row{
+    display: flex;
+    background: #4543E8;
+border-radius: 32px;
+    padding: 20px 40px;
+    align-items: center;
+}
+.about__blog__button__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+margin: 0 20px 0 0;
+color: #FFFFFF;
+}
+.about__blog__row{
+    display: flex;
+    flex-direction: column;
+}
+.about__blog__column__row{
+    display: flex;
+    
+}
+.about__blog__column__picture{
+    margin: 0 40px 0 0 ;
+}
+.about__body__column__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 780px;
+    margin: 0 0 20px 0;
+}
+.about__body__column__title__left{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #4543E8;
+}
+.about__body__column__button{
+    display: flex;
+    
+}
+.about__body__column__button__text{
+    font-family: sans-serif;
+font-style: normal;
+    margin: 0 20px 0 0;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #4543E8;
+}
+.about__body__column__title__right::after{
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 10px 0 0 0;
+    width: 130px;
+    border-bottom: 2px #D8D8EB solid;
+}
+.about__body__column__subtitle{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+    max-width: 530px;
+    margin: 0 0 25px 0;
+line-height: 30px;
+color: #000000;
+
+}
+.about__body__column__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+    max-width: 450px;
+line-height: 28px;
+color: #000000;
+}
+.about__blog__column::after{
+    content: '';
+    display: block;
+    width: 1220px;
+    margin: 50px 0;
+    height: 1px;
+    border-bottom: 1px #F1F2F6 solid;  
+}
+.subsfooter__row{
+    display: flex;
+}
+.subfooter__column{
+    background-image: url(../../image/10.png);
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.subfooter__column2{
+    width: 780px;
+    height: 400px;
+    background: #4543E8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.subfooter__title{
+    padding: 100px 0 23px 0;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.subfooter__text{
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+    max-width: 395px;
+color: #FFFFFF;
+}
+.subfooter__button{
+    display: flex;
+    padding: 44px 0 10px 0;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.subfooter__column::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 110px;
+    border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+}
+.subfooter__column{
+    flex: 0 1 720px;
+}
+.subfooter__column2{
+    flex: 0 1 auto;
+}
+* a:hover{
+    color:bisque;
+    transition:0.4s;
+}
