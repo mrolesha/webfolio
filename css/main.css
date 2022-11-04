@@ -175,6 +175,7 @@
 
 .footer {
   background: #010032;
+  padding: 100px 0 0 0;
 }
 
 .footer__body {
@@ -1227,7 +1228,7 @@
 }
 
 .subfooter__column {
-  background-image: url(../../image/subfooter/1.png);
+  background-image: url(../../image/10.png);
   width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1311,4 +1312,10 @@
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
+}
+
+* a:hover {
+  color: bisque;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
